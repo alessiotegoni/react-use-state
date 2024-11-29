@@ -1,5 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: gainsboro;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.code-languages__container {
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.language__card {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.language__card h2 {
+  margin-bottom: .5rem;
 }

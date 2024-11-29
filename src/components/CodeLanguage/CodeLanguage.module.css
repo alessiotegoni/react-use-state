@@ -1,0 +1,12 @@
+.code__language {
+    cursor: pointer;
+    background-color: rgb(59, 59, 205);
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.code__language.active {
+    background-color: goldenrod;
+    color: #000;
+}
